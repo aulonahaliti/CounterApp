@@ -42,3 +42,8 @@ btn2.addEventListener("click", countDown)
 btn3.addEventListener("click", countByTen)
 btn4.addEventListener("click", reset)
 btn5.addEventListener("click", countByMinusTen)
+
+function darkmode() {
+    var element = document.body;
+    element.classList.toggle("dark-mode");
+}
